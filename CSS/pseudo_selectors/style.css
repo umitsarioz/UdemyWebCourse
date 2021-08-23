@@ -1,0 +1,62 @@
+p{
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+p::after{
+    content: "-Ümit Sarıöz";
+    text-align: right;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 1px;
+    display: block;
+}
+
+p.about::first-letter{
+    font-size: 30px;
+}
+p::first-line{
+    background-color: blanchedalmond;
+}
+
+ul li:first-child{
+    background-color: red;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li:nth-child(even){
+    background-color: springgreen;
+}
+
+ul li:nth-child(5){
+    background-color:yellow;
+}
+a:link{
+    background-color: royalblue;
+    color:yellow;
+}
+a:hover{
+    background-color: seagreen;
+    color:white;
+}
+a:active{
+    background-color: yellow;
+}
+a:visited{
+    background-color: violet;
+    color: whitesmoke;
+}
+
+span{
+    display: none;
+    background-color: violet;
+    color: turquoise;
+    border: 1px solid salmon;
+    padding: 8px 16px;
+}
+div:hover span{
+    display:block;
+}

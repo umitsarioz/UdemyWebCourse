@@ -1,0 +1,22 @@
+/*yorum satırı*/
+li {
+    list-style-type: none;
+    display:inline
+}
+
+.red{
+    color:red;
+}
+
+.blue{
+
+    color:blue;
+}
+
+.f22{
+    font-size: 22px;
+}
+
+.f10{
+    font-size: 10px;
+}

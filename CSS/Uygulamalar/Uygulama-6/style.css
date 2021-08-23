@@ -1,0 +1,37 @@
+#container{
+	width: 1140px;
+	
+}
+#blog-post-container{
+	width: 75%;	
+	display: inline-block;
+}
+
+#other-posts{
+	width: 25%;	
+	display: inline-block;
+	
+}
+
+#author-box
+{
+	border: 3px solid pink;
+	margin:5px;
+	padding: 10px;
+}
+
+.etiketler{
+	margin:0;
+	padding: 0;
+}
+
+.etiketler li{
+	list-style: none;
+	display:inline;
+	margin-right: 5px;
+}
+
+.etiketler li a{
+	text-decoration: none;
+}
+

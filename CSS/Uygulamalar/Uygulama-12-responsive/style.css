@@ -1,0 +1,164 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 7px;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.6rem; /*html root element'in 1.6 katı*/
+    line-height: 1.5; /* satır yüksekliği*/
+    text-align: center; /*her şeyi ortala*/
+    background-color: slategray;
+    color:snow;
+}
+
+/*header*/
+
+header{
+    height: 45rem;
+}
+
+header .bg-image{
+    background-image: url(./images/images/yapay_zeka.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%; /*mevcut container içerisine doldur */
+    height: 45rem; 
+    opacity: 0.4; 
+    position: absolute; /*resmi normal akıştan çıkart ve sabitle ! */
+    z-index: -1; /*derinliği 1 azalt*/
+}
+
+header h1{
+    padding: 11rem;
+    padding-bottom:0;
+}
+
+img{
+    width: 100%;
+    height:auto;
+}
+
+p{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    display:inline-block; /*Margin değeri inline nesneye etki etmediği için değiştirilir. !*/
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 1.6rem 3.2rem;
+    margin-top: 2rem;
+    background-color: black;
+    color:white;
+    transition: all 0.4s;
+}
+
+.btn:hover{
+    background-color: white;
+    color:black;
+}
+
+/* main kodları*/
+main{
+    color: black;
+}
+/*section-a*/
+
+#section-a {
+    background-color: #eaeaee;
+    padding: 3.2rem 0;
+}
+
+/*section-b*/
+
+#section-b{
+    padding: 2rem;
+}
+
+#section-b ul{
+    list-style: none;
+}
+#section-b ul li{
+    background-color:beige;
+    margin-bottom:1rem;
+}
+
+
+/* Section-b'deki contentleri rounded yapan sınıf.*/
+/*
+.yuvarla{
+    border:1px solid transparent;
+    border-radius:5px;
+}
+*/
+
+
+.col-content{
+    padding:2rem;
+}
+
+
+/*Section-c */
+
+
+#section-c{
+    background-color:#eaeaee;
+    color: #333;
+    padding:5rem;
+}
+
+/*section-d*/
+
+#section-d .box{
+    padding:5rem;
+}
+
+#section-d .box:first-child{
+    background-color: blue;
+}
+
+footer{
+    padding: 4rem;
+    background-color: #000;
+}
+
+footer a{
+    color: #2690d2;
+
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*Responsive*/
+@media screen and (min-width:800px) {
+
+    #section-b li{
+        width:28%;
+        margin:1%;
+        display: inline-block;
+    }
+
+    .box{
+        width:50%;
+        float:left;
+    }
+    html{
+        font-size: 10px;
+    }
+}
+

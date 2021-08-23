@@ -1,0 +1,33 @@
+/*title: attiriubte ismi ! 
+attiribute[title] { kodlar ; }
+*/
+/*
+özel kullanım bir attiribute'a özel bir kelime verirsek css kısmında bunu çağırabiliriz.(örn:belirtec)
+p etiketinde tüm etiketleri title olan
+p etiketinte title="belli_bir_title" olan 
+p etiketinde title~="belli bir kelime içeren"
+p etiketinde title^="belli bir kelimeyle başlayan"
+p etiketinde title$="belli bir kelimeyle biten"
+*/
+p[title]{
+    border: 1px solid black;
+    padding: 8px;
+}
+p[title="second"]{
+color:red;
+}
+
+p[belirtec]{
+    color:green;
+}
+
+a[href$="com"]{
+    color:paleturquoise;
+}
+a[href^="http"][target="_blank"]{
+    color:orange;
+}
+
+p[title~="paragraph"]{
+    background-color: gray;
+}

@@ -1,0 +1,69 @@
+<!-- Bu uygulamada Formlar ve Resimler pratiği yapılmıştır.-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hemen Üye Ol</title>
+</head>
+
+<body>
+    <h1> Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <hr>
+    <h4>
+        Hesap Bilgileriniz
+    </h4>
+    <form>
+        <p>
+            Kullanıcı Adı: <input type="text" placeholder="Kullanıcı adı giriniz" name="id" required>
+        </p>
+        <p>
+            Eposta: <input type="email" placeholder="e-posta giriniz" name="email" required>
+        </p>
+        <p>
+
+            Parola: <input type="password" placeholder="parola girniz" name="psw" required>
+        </p>
+        <p>
+            Tel No:<input type="tel" name="telno" required>
+        </p>
+
+    <h4>
+        Kişisel Bilgileriniz
+    </h4>
+  
+    <p>
+        Ad: <input type="text" name="ad">
+    </p>
+    <p>
+        Soyad: <input type="text" name="soyad">
+    </p>
+    <p>
+        Şehir:
+    <select name="sehir_secimi">
+        <option>Seçiniz</option>
+        <option>Bartın</option>
+        <option>Ankara</option>
+        <option>Zonguldak</option>
+    </select>
+</p>
+    <p>
+        Cinsiyet: <input type="radio" name="gender"> Erkek 
+        <input type="radio" name="gender">Kadın
+    </p>
+    <p>
+        <input type="checkbox" name="hobi"> Sinema
+        <input type="checkbox" name="hobi"> Kitap
+        <input type="checkbox" name="hobi"> Gezmek
+        <input type="checkbox" name="hobi"> Spor
+    </p>
+    <!-- submit butonu form tag'lerinin içerisinde olması gerekiyor!!-->
+    <input type="submit" name="kaydet">
+    <input type="reset">
+    
+    
+</form>
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+body{
+    background-color: seashell;
+}
+#container{
+background-color: wheat;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 5%;
+width: 80%;
+height: 100%;
+}
+
+#others{
+    background-color: thistle;
+    border: 3px solid snow;
+}
+
+#tags{
+    background-color: tomato;
+    border: 1px thin black;
+
+}
+
+#tags p{
+    font: x-large bold;
+    text-align: center;
+}
+#posts-window{
+    width: 70%;
+    display: inline-block;
+}
+#aside-window{
+    width: 25%;
+    display: inline-block;
+    border: 0.5px double black;
+    margin: 15px;
+    padding:10px
+}
+#author-box img{
+    border:3px snow;
+    border-radius:60%;
+    border-style: double;
+}
+
+.post-date{
+    font-size: 16px;
+    font-style: italic;
+    text-align: right;
+}
+.read-more{
+    text-align: right;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color:salmon;
+}
+.blog-post{
+    background-color: ghostwhite;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+

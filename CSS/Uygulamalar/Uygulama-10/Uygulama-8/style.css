@@ -1,0 +1,151 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+
+body{
+	font-family: 'Style Script', cursive;
+	font-size:22px;
+	line-height:150%;
+}
+#container{
+	width: 1140px;
+	height: 900px;
+	background-color: whitesmoke;
+	margin:10px auto;
+	color:black;
+	
+}
+#blog-post-container{
+	width: 75%;	
+	display: inline-block;
+	float:left;
+}
+
+#other-posts{
+	width: 24%;	
+	display: inline-block;
+	margin:10px 1px;
+}
+
+#author-box
+{
+	width:24%;
+	margin:10px 1px;
+	display:inline-block;
+}
+
+.etiketler{
+	margin:5px;
+	padding: 5px;
+}
+
+.etiketler li{
+	list-style: none;
+	display:inline;
+	margin-right: 5px;
+	border: 1px solid salmon;
+	background-color: salmon;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+.etiketler li a:hover{
+	/*background-color: rgba(250, 128, 114,0.5);*/
+	opacity: 0.5;
+}
+
+.etiketler li a:active{
+	color:white;
+}
+
+.etiketler li a{
+	text-decoration: none;
+	color:whitesmoke;
+	opacity:.9;
+}
+
+.clearfix{
+	clear:both;
+}
+
+#social-media a{
+	color:turquoise;
+	text-decoration: none;
+	margin-left: 5px;
+	opacity: 0.9;
+}
+#social-media a:hover{
+	opacity: 0.5;
+}
+
+.boxes{
+	border:1px solid white;
+	border-radius:5px;
+	padding:15px;
+	background-color: white;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+}
+.blog-post{
+	position: relative;
+	margin:15px ;
+	text-align: justify;
+
+}
+
+h2{
+	display:inline;
+	color:turquoise;
+
+}
+.date{
+	display:inline;
+	position:absolute;
+	right:15px;
+	color:sandybrown;
+}
+#nav{
+	background-color: turquoise;
+	height: 70px;
+	position: sticky;
+	top:0px;
+	padding-top: 10px;
+	border-bottom: 2px double black;
+	z-index: 1;
+}
+#nav ul li {
+	text-decoration: none;
+	display:inline;
+	margin-right:20px;
+	float:right;
+
+}
+
+#nav ul li a{
+	color:white;
+	font-size: 16px;
+	text-decoration: none;
+	padding:2px 5px;
+	border-top: 3px solid salmon;
+	border-bottom: 3px solid salmon;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#nav ul li:first-child{
+	float:left;
+	margin-left:20px;
+}
+#nav ul li:first-child a:hover{
+	color:rgba(255, 255, 0, 0.904)
+}
+#author-box img{
+	width:70%;
+	border:1px double white;
+	border-radius: 50%;
+	margin: 2px auto;
+}

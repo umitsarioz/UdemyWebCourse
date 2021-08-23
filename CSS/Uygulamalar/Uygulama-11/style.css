@@ -1,0 +1,67 @@
+body{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Style Script', cursive;
+	font-size:22px;
+	line-height:150%;
+	background-color:tomato;
+}
+
+main{
+	height: 940px;
+
+}
+
+.articles-area{
+	float:left;
+	width:75%;
+	border:1px solid paleturquoise;
+}
+aside{
+	float:right;
+	width:25%;
+	border:1px solid black;
+}
+nav{
+	background-color: black;
+	height: 40px;
+	color:white;
+}
+.social-media{
+	float:right;
+	color: white;
+}
+
+#main-logo{
+	margin:10px;
+	color:white;
+}
+
+.pages{
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	color:white;
+}
+.mr15{
+	margin-right:15px;
+	margin-top:10px;
+}
+.ml25{
+	margin-left:25px;
+}
+
+.ortala{
+	width:1280px;
+	margin:0px auto;
+}
+
+.ortala>a{
+	text-decoration: none;
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}

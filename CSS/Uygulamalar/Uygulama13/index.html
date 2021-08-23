@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>NavBar</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #container {
+            background-color: goldenrod;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .nav-item a {
+            text-decoration: none;
+            color: white;
+
+            display: block;
+            padding: 16px;
+        }
+        .nav-item:hover{
+            background-color: rgb(233, 184, 61);
+        }
+
+        @media all and (max-width:800px){
+            #container{
+                justify-content: space-around;
+            }
+        }
+
+        @media all and (max-width:600px){
+            #container{
+                flex-direction: column;
+                /*text-align: center;*/
+            }
+            .nav-item a{
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <div class="nav-item">
+            <a href="#">Home</a>
+        </div>
+        <div class="nav-item">
+            <a href="#">Products</a>
+        </div>
+        <div class="nav-item">
+            <a href="#">About</a>
+        </div>
+        <div class="nav-item">
+
+            <a href="#">Contact</a>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
