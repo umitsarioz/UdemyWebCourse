@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--meta etiketler-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kurs Projesi-2</title>
+
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- Fontawesome icons-->
+    <!--
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    -->
+    <link rel="stylesheet" href="mystyle.css">
+
+</head>
+
+<body>
+
+    <div class="kurs-container mt-3">
+        <h1>Proje: Kurs Ekleme & Silme </h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-5">
+                <!--<div class="kurs-ekleme">-->
+                <form id="kurs-form">
+                    <div class="form-group">
+                        <label for="title">Kurs Adı</label>
+                        <input type="text" class="form-control" id="title">
+                    </div>
+                    <div class="form-group">
+                        <label for="instructor">Danışman</label>
+                        <input type="text" class="form-control" id="instructor">
+                    </div>
+                    <div class="form-group">
+                        <label for="image">Resim</label>
+                        <input type="text" class="form-control" id="image">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Ekle</button>
+                </form>
+            </div>
+            <div class="col-md-7">
+                <table id="kurs-bilgileri" class="mt-4 table table-bordered table-striped">
+                    <thead>
+                        <th> Resim </th>
+                        <th> Kurs Adı </th>
+                        <th> Danışman </th>
+                        <th> </th>
+                    </thead>
+                    <tbody id="course-list">
+                        <!-- İçerikler-->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Bootstrap Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+
+    <!--My scripts-->
+    <script src="appES5.js"></script>
+</body>
+
+</html>
